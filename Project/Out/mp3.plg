@@ -1,0 +1,184 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\硬件\冰凌科技--STM32开发板光盘\开发板实验程序\mp3\mp3.uvproj
+Project File Date:  03/24/2012
+
+<h2>Output:</h2>
+Load "E:\\硬件\\冰凌科技--STM32开发板光盘\\开发板实验程序\\mp3\\Out\\mp3.AXF" 
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "E:\硬件\冰凌科技--STM32开发板光盘\开发板实验程序\mp3\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  1 2015 11:42:48
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.442V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'MP3'
+compiling main.c...
+compiling music.c...
+User\music.c(112): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+User\music.c(112): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "u8 *"
+User\music.c(215): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=38964 RO-data=180088 RW-data=256 ZI-data=52256  
+FromELF: creating hex file...
+".\Out\mp3.axf" - 0 Error(s), 3 Warning(s).
+Load "E:\\硬件\\冰凌科技--STM32开发板光盘\\开发板实验程序\\mp3\\Out\\mp3.AXF" 
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "E:\硬件\冰凌科技--STM32开发板光盘\开发板实验程序\mp3\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  1 2015 11:42:48
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.455V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'MP3'
+compiling music.c...
+User\music.c(112): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+User\music.c(112): warning:  #144-D: a value of type "char *" cannot be used to initialize an entity of type "u8 *"
+User\music.c(215): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=38964 RO-data=180088 RW-data=256 ZI-data=52256  
+FromELF: creating hex file...
+".\Out\mp3.axf" - 0 Error(s), 3 Warning(s).
+Load "E:\\硬件\\冰凌科技--STM32开发板光盘\\开发板实验程序\\mp3\\Out\\mp3.AXF" 
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "E:\硬件\冰凌科技--STM32开发板光盘\开发板实验程序\mp3\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Dec  1 2015 11:42:48
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.455V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
